@@ -60,12 +60,15 @@ README.md
 This file, which provides an overview and instructions for the project.
 
 How It Works
+
 Data Generation
 Synthetic Records:
 Generates 30 retail transaction records with fields such as:
 Name, Date, Time, Store Category
 Email, Phone Number, Address
 Transaction Type, Amount, Zip Code
+
+
 K-Anonymity
 Email Masking:
 Retains only the first three characters of the email and replaces the rest with asterisks.
@@ -73,9 +76,13 @@ Phone Number Masking:
 Partially masks phone numbers to hide sensitive parts.
 Address Generalization:
 Replaces detailed addresses with generalized Zip Code values.
+
+
 L-Diversity
 Sensitive Attribute Diversity:
 Groups data by Store Category and ensures that each group contains at least two distinct Transaction Types. This prevents homogeneous sensitive data within a group.
+
+
 T-Closeness
 Maintaining Distribution:
 Adjusts the sample selection for the Amount attribute in each group so that its distribution closely resembles that of the overall dataset, reducing the risk of inference attacks.
