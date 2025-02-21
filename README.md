@@ -29,7 +29,7 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/synthetic-retail-data-anonymization.git
+git clone https://github.com/Krishnaa548/synthetic-retail-data-anonymization.git
 cd synthetic-retail-data-anonymization
 Install the required Python packages:
 
@@ -81,14 +81,6 @@ Maintaining Distribution:
 Adjusts the sample selection for the Amount attribute in each group so that its distribution closely resembles that of the overall dataset, reducing the risk of inference attacks.
 Contributing
 Contributions are welcome! If you have suggestions, improvements, or bug fixes:
-
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes.
-Push to your branch.
-Open a Pull Request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
 Faker: For providing an excellent library to generate synthetic data.
